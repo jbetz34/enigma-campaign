@@ -17,12 +17,12 @@ Your function should accept 2 arguments:
         e.g. ["AL","PR","EV"] : A<->L ; P<->R ; E<->V
 - message [ string ] - message to encrypt/decrypt
 
-examples: 
-function( ['AL', 'PR', 'EV'] , "APPLE" )    ----> "LRRAV"
-function( ['PW'] , "LINK" )    ----> "LINK"
-function( ['PO', 'RT', 'FB', 'EY', 'IW', 'SA', 'UK', 'CN'], "YCNTEORWPC WA BKC" )    ----> "ENCRYPTION IS FUN"
+examples: </br>
+function( ['AL', 'PR', 'EV'] , "APPLE" )    ----> "LRRAV" </br>
+function( ['PW'] , "LINK" )    ----> "LINK" </br>
+function( ['PO', 'RT', 'FB', 'EY', 'IW', 'SA', 'UK', 'CN'], "YCNTEORWPC WA BKC" )    ----> "ENCRYPTION IS FUN" </br>
 
 additional disclosures: 
-There is only enough space for 1 plug to fit into each letter hole on the plugboard, so you don't need to worry about a letter being mapped to two different letters
-There are only 10 wires, so the maximum number of letter mappings is 10, and the minimum number of letter mappings is 1
-There are only uppercase letters on the machine and the plugboard
+- There is only enough space for 1 plug to fit into each letter hole on the plugboard, so you don't need to worry about a letter being mapped to two different letters
+- There are only 10 wires, so the maximum number of letter mappings is 10, and the minimum number of letter mappings is 1
+- There are only uppercase letters on the machine and the plugboard
