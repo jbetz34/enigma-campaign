@@ -18,9 +18,11 @@ Your function should accept 2 arguments:
 - message [ string ] - message to encrypt/decrypt
 
 examples: </br>
-function( ['AL', 'PR', 'EV'] , "APPLE" )    ----> "LRRAV" </br>
-function( ['PW'] , "LINK" )    ----> "LINK" </br>
-function( ['PO', 'RT', 'FB', 'EY', 'IW', 'SA', 'UK', 'CN'], "YCNTEORWPC WA BKC" )    ----> "ENCRYPTION IS FUN" </br>
+``` q
+function[ ("AL";"PR";"EV") ; "APPLE" ]    // "LRRAV" </br>
+function[ enlist ("PW") ; "LINK" ]    // "LINK" </br>
+function[ ("PO";"RT";"FB";"EY";"IW";"SA";"UK";"CN"); "YCNTEORWPC WA BKC" ]    // "ENCRYPTION IS FUN" </br>
+```
 
 additional disclosures: 
 - There is only enough space for 1 plug to fit into each letter hole on the plugboard, so you don't need to worry about a letter being mapped to two different letters
